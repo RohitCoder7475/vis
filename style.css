@@ -1,0 +1,55 @@
+
+        *{
+margin: 0;
+padding: 0;
+
+}
+body{
+    background-image: url('red_fort_091-sixteen_nine.avif');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.Main{
+    padding-top: 20%;
+}
+input{
+font-size: 30px;
+width: 200px;
+border: 2px solid red;
+border-radius: 20px;
+background: pink;
+padding-left: 10px;
+}
+button{
+    padding: 5px;
+    font-size: 40px;
+    background: darkorange;
+    color: green;
+    border: 2px solid orangered;
+    border-radius: 20px;
+}
+.content{
+    display: none;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: orangered;
+    text-shadow:  0 0 9px green,
+    0 0 7px aqua,
+    0 0 10px aqua;
+    background-image: url('india-independence.avif');
+    background-size: cover;
+    height: 200vh;
+    background-position: center;
+}
+.heart{
+    animation: zoom 0.2s linear;
+    animation-iteration-count: infinite;
+    
+}
+.heart img{
+    border-radius:50px;
+    height: 200px;
+    width: 200px;
+}
+    
